@@ -1,0 +1,50 @@
+html,
+body {
+	height: 100%;
+	color: #666666;
+	font-family: "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+}
+a {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	transition: opacity 0.125s linear;
+}
+a:hover {
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.125s linear;
+}
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+.first-container {
+	background: url(https://res.cloudinary.com/dtjyx4v7z/image/upload/v1585242892/QT3rjYYE1vNKd5FkxRiTbBEk.jpg)
+		no-repeat center center;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.custom-container {
+	height: 100vh;
+	width: 100%;
+}

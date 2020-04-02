@@ -1,0 +1,15 @@
+#about {
+	height: 480px;
+}
+#my-info-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	height: 100%;
+	padding: 64px;
+}
+.img-rounded {
+	border-radius: 50%;
+	border: 10px solid #2a4454;
+}
