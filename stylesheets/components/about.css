@@ -1,5 +1,5 @@
 #about {
-	height: 480px;
+	height: 320px;
 }
 #my-info-container {
 	display: flex;
@@ -12,4 +12,5 @@
 .img-rounded {
 	border-radius: 50%;
 	border: 10px solid #2a4454;
+	height: 320px;
 }
