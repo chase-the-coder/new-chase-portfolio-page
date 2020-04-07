@@ -1,4 +1,4 @@
-#about {
+#about-container {
 	height: 320px;
 }
 
@@ -15,4 +15,7 @@
 	border-radius: 50%;
 	border: 10px solid #2e98df;
 	height: 320px;
+}
+#about-me {
+	padding-top: 58px !important;
 }
