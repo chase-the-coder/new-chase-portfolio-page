@@ -1,8 +1,5 @@
 import _ from './components/navBar';
 import { loadDynamicBannerText } from './components/typed';
+import { transform } from './components/transform';
 
-document.addEventListener('turbolinks:load', () => {
-	// Call your JS functions here
-	// [...]
-	loadDynamicBannerText();
-});
+transform();
