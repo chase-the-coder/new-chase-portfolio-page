@@ -14,25 +14,33 @@
 </head>
 
 <body>
-  <div class="first-container text-white">
-    <div class="nav-container">
-      <div class="nav-row">
-        <div class="nav-logo">
-          <a href="#">
-          </a>
-        </div>
-        <div class="nav-controls">
-          <a  id="button1" href="#about">about</a>
-          <a href="#projects">projects</a>
-          <a data-toggle="modal" data-target=".bd-example-modal-lg">resume</a>
-        </div>
+  <div class="home-banner">
+    <div class=" fixed-top navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <a class="navbar-brand" href="#" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">resume</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="custom-container d-flex flex-column justify-content-center align-items-center">
       <h1 class="banner-text">Hello, I'm <span class="light-blue">Chase Lindsay</span>
         <br>I'm a full-stack web developer</h1>
         <a href="#projects" class="btn-custom">View my work<i class="fas fa-arrow-right ml-3"></i></a>
-    </div>
   </div>
   <div  class="container pt-3">
     <div id="about">
