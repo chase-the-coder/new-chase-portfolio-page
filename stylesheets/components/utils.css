@@ -3,6 +3,7 @@
 	padding: 8px 24px;
 	border: 1px solid white;
 	margin: 8px;
+	font-size: 32px;
 }
 .rotate-90 {
 	transition: transform .6s;

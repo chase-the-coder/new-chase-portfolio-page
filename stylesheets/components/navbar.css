@@ -15,7 +15,7 @@
 	margin: 0 auto;
 	padding-right: 25px;
 	padding-left: 25px;
-	padding-top: 18px;
+	padding-top: 12px;
 }
 .nav-container .nav-row .nav-logo {
 	display: inline-block;
@@ -25,8 +25,9 @@
 	float: right;
 }
 .nav-container .nav-row .nav-controls a {
-	padding-left: 20px;
+	padding-left: 24px;
 	color: white;
+	font-size: 24px;
 }
 html {
 	scroll-behavior: smooth;
