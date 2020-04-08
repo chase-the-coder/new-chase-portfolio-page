@@ -12,3 +12,12 @@
 	transition: transform .6s;
 	transform: rotate(-90deg);
 }
+
+.skill {
+	margin: 1px 1px;
+	background-color: #23272b;
+	padding: 5px 8px;
+	border: dashed 1px rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+	vertical-align: middle;
+}
