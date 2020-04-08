@@ -29,50 +29,30 @@
       </div>
     </div>
     <div class="custom-container d-flex flex-column justify-content-center align-items-center">
-      <h1>Hello, I'm <span class="light-blue">Chase Lindsay</span>
+      <h1 class="banner-text">Hello, I'm <span class="light-blue">Chase Lindsay</span>
         <br>I'm a full-stack web developer</h1>
         <a href="" class="btn-custom">View my work<i class="fas fa-arrow-right ml-3"></i></a>
     </div>
   </div>
   <div  class="container pt-3">
-    <div id="about-me">
-      <h2  class="text-center">about me</h2>
-      <div class="d-flex justify-content-center" id="about-container">
-        <div class="d-flex justify-content-center flex-column">
-        <img src="images/pic.jpeg" alt="A picture of Chase" class="img-rounded">
-        <div class=" d-flex justify-content-center">
+    <div id="about">
+      <h2 class="text-center">about me</h2>
+      <div class="about">
+        <div class="about-pic-section">
+        <img src="images/pic.jpeg" alt="A picture of Chase" class="about-pic">
+        <div class=" text-center">
           <button type="button" class="btn btn-sm btn-primary mt-4" data-toggle="modal" data-target=".bd-example-modal-lg">
             resume
           </button>
 
-          <!-- Modal -->
-          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="resumeModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Resume</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <a id="resume"href="resources/chase-resume-2020.pdf" target="_blank"><img src="images/chase-resume-2020-1.png" class="w-100"></a>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          </div>
-        <div id="my-info-container">
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
           <h5>I'm curious by nature. I'm always
           asking how I can improve myself and the
           lives of those around me. I worked in NYC
           as an adtech analyst for two years and
-           subsequently traveled
+          subsequently traveled
           the world. Along the way, I discovered my
           love for programming and decided to attend
           a software engineering bootcamp. As a recent
@@ -90,7 +70,7 @@
     <div id="projects">
       <h2 class="text-center">development projects</h2>
       <div class="card-detail">
-        <div class="d-flex justify-content-around p-4">
+        <div class="card-detail-body">
           <div class="d-flex flex-column align-items-center">
             <div class="card-photo d-flex justify-content-center">
               <a href="https://www.randomeal.co/" target="_blank">
@@ -109,15 +89,15 @@
               <h3> Randomeal </h3>
               <p>
                 Randomeal is a mobile first restaurant selection app for indecisive eaters. It uses a geolocator gem to get the user's current location.
-                 The user simply inputs the travel range using the slider, selects the categories to avoid, selects price range and clicks randomize to find
-                 an amazing restaurant in his or her neighborhood.
+                The user simply inputs the travel range using the slider, selects the categories to avoid, selects price range and clicks randomize to find
+                an amazing restaurant in his or her neighborhood.
               </p>
             </div>
           </div>
         </div>
       </div>
       <div class="card-detail">
-        <div class="d-flex justify-content-around p-4">
+        <div class="card-detail-body">
           <div class="d-flex flex-column align-items-center">
             <div class="card-photo">
               <a href="https://rioserve.herokuapp.com/" target="_blank">
@@ -143,7 +123,7 @@
         </div>
       </div>
       <div class="card-detail">
-        <div class="d-flex justify-content-around p-4">
+        <div class="card-detail-body">
           <div class="d-flex flex-column align-items-center">
             <div class="card-photo">
               <a href="https://chase-the-cocktail.herokuapp.com/" target="_blank">
@@ -171,6 +151,26 @@
 
     </div>
   </div>
+  <!-- Modal -->
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="resumeModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Resume</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a id="resume"href="resources/chase-resume-2020.pdf" target="_blank"><img src="images/chase-resume-2020-1.png" class="w-100"></a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="footer">
     <div class="footer-links">
       <a href="https://github.com/chase-the-coder?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
@@ -184,13 +184,13 @@
   </div>
   <!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
   <script src="main.js"></script>
 </body>
