@@ -46,17 +46,56 @@ a:visited {
 .banner-text {
 	font-size: 64px;
 }
+.btn-custom {
+	color: white;
+	padding: 8px 24px;
+	border: 1px solid white;
+	margin: 8px;
+	font-size: 32px;
+}
 /* --- Responsiveness --- */
 
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
+	.banner-text {
+		text-align: center;
+		font-size: 32px;
+	}
+	.btn-custom {
+		color: white;
+		padding: 8px 24px;
+		border: 1px solid white;
+		margin: 8px;
+		font-size: 16px;
+	}
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+	.banner-text {
+		text-align: center;
+		font-size: 32px;
+	}
+	.btn-custom {
+		color: white;
+		padding: 8px 24px;
+		border: 1px solid white;
+		margin: 8px;
+		font-size: 16px;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+	.banner-text {
+		font-size: 48px;
+	}
+	.btn-custom {
+		color: white;
+		padding: 8px 24px;
+		border: 1px solid white;
+		margin: 8px;
+		font-size: 16px;
+	}
 }
 
 /* Large devices (desktops & landscape tablets, 992px and up)*/
