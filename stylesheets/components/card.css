@@ -8,6 +8,7 @@
 .card-detail-body {
 	padding: 40px;
 	display: grid;
+	grid-template-columns: 1fr 2fr;
 	grid-gap: 40px;
 	align-items: center;
 }
