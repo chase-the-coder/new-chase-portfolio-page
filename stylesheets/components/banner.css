@@ -40,6 +40,10 @@
 	background-color: white !important;
 }
 
+.home-banner a:hover {
+	text-decoration: none;
+	color: #007bff;
+}
 /* --- Responsiveness --- */
 
 /* Smallest device*/
