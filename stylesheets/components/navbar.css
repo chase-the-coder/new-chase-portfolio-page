@@ -1,34 +1,29 @@
-.nav-container {
-	height: 58px;
-	width: 100%;
-	position: fixed;
-	color: white;
-	letter-spacing: 0.025em;
-	transition: background-color 0.2s linear;
-}
-.nav-container.solid-nav {
-	background-color: black;
-	transition: background-color 0.2s linear;
-}
-.nav-container .nav-row {
-	width: 100%;
-	margin: 0 auto;
-	padding-right: 25px;
-	padding-left: 25px;
-	padding-top: 12px;
-}
-.nav-container .nav-row .nav-logo {
-	display: inline-block;
-	font-weight: 900;
-}
-.nav-container .nav-row .nav-controls {
-	float: right;
-}
-.nav-container .nav-row .nav-controls a {
-	padding-left: 24px;
-	color: white;
-	font-size: 24px;
-}
 html {
 	scroll-behavior: smooth;
+}
+.navbar-lewagon {
+	justify-content: space-between;
+	background: white;
+	background-color: transparent;
+	transition: 0.5s background-color ease;
+}
+.navbar-lewagon-white {
+	background-color: black;
+}
+
+.navbar-lewagon .navbar-collapse {
+	flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+	width: 40px;
+}
+.nav-link {
+	color: white !important;
+}
+.nav-links {
+	color: transparent;
+}
+.navbar-toggler-white {
+	background-color: white !important;
 }
