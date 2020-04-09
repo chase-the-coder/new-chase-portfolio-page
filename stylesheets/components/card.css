@@ -40,6 +40,11 @@
 	margin-top: 0px;
 }
 
+.card-detail-info a {
+	color: #2a4454;
+	opacity: 1;
+}
+
 /*.card-detail-info img {
   position: absolute;
   right: 20px;
@@ -52,13 +57,16 @@ p {
 }
 
 .card-detail-info a {
-	opacity: 0.3;
-	margin-left: 10px;
+	color: #2a4454;
+	text-decoration: none;
 }
 
 .card-photo {
 	height: 296px;
 	width: 456px;
+}
+.card-detail-body a:hover {
+	opacity: .3;
 }
 
 /* --- Responsiveness --- */
