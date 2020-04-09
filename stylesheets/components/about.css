@@ -26,14 +26,9 @@
 	.about {
 		grid-template-columns: 1fr;
 	}
-
-	.about-pic-section {
-		flex-direction: row;
-	}
-
 	.about-pic {
-		height: 240px;
-		width: 240px;
+		height: 200px;
+		width: 200px;
 		border-width: 7px;
 	}
 }
@@ -43,13 +38,9 @@
 		grid-template-columns: 1fr;
 	}
 
-	.about-pic-section {
-		flex-direction: row;
-	}
-
 	.about-pic {
-		height: 240px;
-		width: 240px;
+		height: 200px;
+		width: 200px;
 		border-width: 7px;
 	}
 }
@@ -59,14 +50,9 @@
 	.about {
 		grid-template-columns: 1fr;
 	}
-
-	.about-pic-section {
-		flex-direction: row;
-	}
-
 	.about-pic {
-		height: 240mopx;
-		width: 240mopx;
+		height: 200px;
+		width: 200px;
 		border-width: 7px;
 	}
 }
@@ -76,11 +62,6 @@
 	.about {
 		grid-template-columns: 1fr 2fr;
 	}
-
-	.about-pic-section {
-		flex-direction: column;
-	}
-
 	.about-pic {
 		border-radius: 50%;
 		border: 10px solid #007bff;
@@ -94,11 +75,6 @@
 	.about {
 		grid-template-columns: 1fr 2fr;
 	}
-
-	.about-pic-section {
-		flex-direction: column;
-	}
-
 	.about-pic {
 		border-radius: 50%;
 		border: 10px solid #007bff;
