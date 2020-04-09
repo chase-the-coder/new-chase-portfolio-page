@@ -65,8 +65,8 @@
 	}
 
 	.about-pic {
-		height: 240px;
-		width: 240px;
+		height: 240mopx;
+		width: 240mopx;
 		border-width: 7px;
 	}
 }
