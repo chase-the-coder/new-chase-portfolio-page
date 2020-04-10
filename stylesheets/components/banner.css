@@ -1,12 +1,12 @@
 .home-banner {
-	background-image: url('https://res.cloudinary.com/dtjyx4v7z/image/upload/v1585242892/QT3rjYYE1vNKd5FkxRiTbBEk.jpg');
+	background-image: url('https://media.giphy.com/media/pfZzOLxoVPgcw/giphy.gif');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	color: #eee;
 	text-align: center;
 	padding-top: 40vh;
-	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
 }
 
 .btn-custom {
@@ -21,18 +21,25 @@
 	text-decoration: none;
 	color: #007bff;
 }
+.banner-text {
+	font-size: 32px;
+	text-align: center;
+	font-weight: 100;
+}
 /* --- Responsiveness --- */
 
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
 	.banner-text {
 		font-size: 32px;
+		text-align: center;
 	}
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	.banner-text {
 		font-size: 48px;
+		text-align: center;
 	}
 }
 
