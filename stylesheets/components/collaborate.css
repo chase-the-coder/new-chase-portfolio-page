@@ -1,0 +1,10 @@
+.collaborate-border {
+	border: 1px dashed black;
+}
+#collaborate a {
+	color: black;
+}
+#collaborate a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
