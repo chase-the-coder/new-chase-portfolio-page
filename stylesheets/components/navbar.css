@@ -21,7 +21,18 @@ html {
 .nav-link {
 	color: white !important;
 }
+.nav-link {
+	color: white !important;
+}
 .nav-links {
+	color: transparent;
+}
+.nav-links a:hover {
+	text-decoration: none;
+	color: transparent;
+}
+.nav-item a:hover {
+	text-decoration: none;
 	color: transparent;
 }
 .navbar-toggler-white {

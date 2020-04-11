@@ -15,3 +15,27 @@
 	border-radius: 3px;
 	vertical-align: middle;
 }
+
+.btn-blue {
+	margin: 1px 1px;
+	background-color: #2302c9;
+	color: white;
+	padding: 5px 8px;
+	border: dashed 1px rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+	vertical-align: middle;
+}
+.btn-blue:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+.btn-custom {
+	color: white;
+	padding: 8px 24px;
+	border: 1px solid white;
+	margin: 8px;
+	font-size: 18px;
+}
+.btn-custom:hover {
+	text-decoration: none;
+}

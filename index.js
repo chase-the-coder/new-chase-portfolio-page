@@ -12,11 +12,14 @@ const initUpdateNavbarOnScroll = () => {
 					navlink.classList.add('nav-link');
 				}
 			} else {
+				// navbar.innerHTML = '';
 				navbar.classList.remove('navbar-lewagon-white');
 				toggler.classList.remove('navbar-toggler-white');
 				for (let navlink of navlinks) {
-					navlink.classList.remove('nav-link');
+					// navlink.innerHTML = '';
 					navlink.classList.add('nav-links');
+					navlink.classList.remove('nav-link');
+					navlink.classList.remove('active');
 				}
 			}
 		});

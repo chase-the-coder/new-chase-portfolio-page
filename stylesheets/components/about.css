@@ -24,6 +24,9 @@
 	align-items: center;
 	font-size: 18px;
 }
+.about-section-text a {
+	color: #2302c9;
+}
 #hexagons {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;

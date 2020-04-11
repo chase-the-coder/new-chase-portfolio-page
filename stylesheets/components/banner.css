@@ -11,18 +11,7 @@
 .banner-name {
 	font-weight: 900;
 }
-.btn-custom {
-	color: white;
-	padding: 8px 24px;
-	border: 1px solid white;
-	margin: 8px;
-	font-size: 18px;
-}
 
-.home-banner a:hover {
-	text-decoration: none;
-	color: #007bff;
-}
 .banner-text {
 	font-size: 32px;
 	text-align: center;
