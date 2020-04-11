@@ -8,7 +8,9 @@
 	padding-top: 40vh;
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
-
+.banner-name {
+	font-weight: 900;
+}
 .btn-custom {
 	color: white;
 	padding: 8px 24px;
