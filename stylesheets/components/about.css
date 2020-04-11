@@ -12,7 +12,7 @@
 }
 .about-pic {
 	border-radius: 50%;
-	border: 10px solid #007bff;
+	border: 10px solid #2302c9;
 	height: 320px;
 }
 #about {
@@ -43,13 +43,13 @@
 }
 .box-8 {
 	float: left;
-	border-right: 30px solid #007bff;
+	border-right: 30px solid #2302c9;
 	border-top: 52px solid transparent;
 	border-bottom: 52px solid transparent;
 }
 .box-10 {
 	float: left;
-	border-left: 30px solid #007bff;
+	border-left: 30px solid #2302c9;
 	border-top: 52px solid transparent;
 	border-bottom: 52px solid transparent;
 }
@@ -59,7 +59,7 @@
 	float: left;
 	width: 60px;
 	height: 104px;
-	background-color: #007bff;
+	background-color: #2302c9;
 }
 
 /* --- Responsiveness --- */
@@ -119,7 +119,7 @@
 	}
 	.about-pic {
 		border-radius: 50%;
-		border: 10px solid #007bff;
+		border: 10px solid #2302c9;
 		height: 480px;
 		width: 480px;
 	}
@@ -135,7 +135,7 @@
 	}
 	.about-pic {
 		border-radius: 50%;
-		border: 10px solid #007bff;
+		border: 10px solid #2302c9;
 		height: 480px;
 		width: 480px;
 	}
