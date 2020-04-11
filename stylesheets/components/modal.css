@@ -1,3 +1,9 @@
 #resume:hover {
 	opacity: 1 !important;
 }
+.bd-contact-modal-lg a {
+	color: black;
+}
+.bd-contact-modal-lg a:hover {
+	opacity: 0.7;
+}

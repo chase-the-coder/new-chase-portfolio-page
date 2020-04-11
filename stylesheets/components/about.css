@@ -33,7 +33,14 @@
 	justify-content: center;
 	width: 100%;
 	float: left;
+	margin-bottom: 8px;
 }
+.fa-fire {
+	margin-left: 13px;
+}
+/* .fa-3x {
+	color: black;
+} */
 .box-8 {
 	float: left;
 	border-right: 30px solid #00806a;
@@ -68,7 +75,7 @@
 		border-width: 7px;
 	}
 	#hexagons {
-		grid-template-columns: 1fr;
+		grid-template-columns: 2fr 2fr;
 		padding: 32px;
 	}
 }
@@ -84,7 +91,8 @@
 		border-width: 7px;
 	}
 	#hexagons {
-		grid-template-columns: 1fr;
+		grid-template-columns: 2fr 2fr;
+		padding: 32px;
 	}
 }
 
@@ -99,7 +107,8 @@
 		border-width: 7px;
 	}
 	#hexagons {
-		grid-template-columns: 1fr;
+		grid-template-columns: 2fr 2fr;
+		padding: 32px;
 	}
 }
 
@@ -115,7 +124,7 @@
 		width: 480px;
 	}
 	#hexagons {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 }
 
