@@ -65,6 +65,13 @@
 	background-color: #2302c9;
 }
 
+.about-buttons a {
+	color: white;
+}
+.about-buttons a:hover {
+	color: white;
+}
+
 /* --- Responsiveness --- */
 
 /* Smallest device*/

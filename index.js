@@ -7,6 +7,7 @@ const initUpdateNavbarOnScroll = () => {
 			if (window.scrollY >= window.innerHeight) {
 				navbar.classList.add('navbar-lewagon-white');
 				toggler.classList.add('navbar-toggler-white');
+				// toggler.classList.remove('navbar-toggler-transparent');
 				for (let navlink of navlinks) {
 					navlink.classList.remove('nav-links');
 					navlink.classList.add('nav-link');
@@ -15,6 +16,7 @@ const initUpdateNavbarOnScroll = () => {
 				// navbar.innerHTML = '';
 				navbar.classList.remove('navbar-lewagon-white');
 				toggler.classList.remove('navbar-toggler-white');
+				// toggler.classList.add('navbar-toggler-transparent');
 				for (let navlink of navlinks) {
 					// navlink.innerHTML = '';
 					navlink.classList.add('nav-links');

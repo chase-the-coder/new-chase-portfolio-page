@@ -38,3 +38,6 @@ html {
 .navbar-toggler-white {
 	background-color: white !important;
 }
+.navbar-toggler-transparent {
+	background-color: transparent !important;
+}
