@@ -19,6 +19,12 @@
 	margin-top: 24px;
 }
 
+.atom {
+	height: 96px;
+	width: 96px;
+	color: #212529;
+}
+
 /* --- Responsiveness --- */
 
 /* Smallest device*/
