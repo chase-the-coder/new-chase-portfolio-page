@@ -85,7 +85,7 @@
 		border-width: 7px;
 	}
 	#hexagons {
-		grid-template-columns: 2fr 2fr;
+		grid-template-columns: 1fr 1fr;
 		padding: 32px;
 	}
 }
